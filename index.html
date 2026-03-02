@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Presbyterian Church Palisades Park | 2026 Renovation & Community Fund</title>
+    <meta name="description" content="Support the 2026 Renovation Project and daily community ministries of First Presbyterian Church (fpcpp.org) in Palisades Park, NJ. Preserve 117 years of faith, worship, and service. Donate today.">
+    <meta name="keywords" content="First Presbyterian Church Palisades Park, FPC Palisades Park, church renovation NJ, donate to church Palisades Park, TCCC afterschool, multilingual worship, fpcpp.org, FPC renovation 2026">
+    <meta name="author" content="First Presbyterian Church Palisades Park">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Inter:wght@400;500;600&amp;display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        h1, h2, h3, h4 { font-family: 'Playfair Display', serif; }
+        .hero-bg {
+            background-image: linear-gradient(rgba(30,58,53,0.55), rgba(30,58,53,0.55)), url('img/hero.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .nav-link {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .nav-link:hover {
+            color: #d97706;
+            transform: translateY(-2px);
+        }
+        .section {
+            scroll-margin-top: 88px;
+        }
+        .card-hover {
+            transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-12px) scale(1.02);
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.15);
+        }
+        .gold-accent {
+            color: #d97706;
+        }
+    </style>
+</head>
+<body class="bg-[#f8f5f0] text-[#2c3e35] overflow-x-hidden">
+    <!-- NAVBAR -->
+    <nav class="bg-white shadow-lg fixed w-full z-50 border-b border-[#e5d9c8]">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-11 h-11 bg-[#2c3e35] rounded-full flex items-center justify-center text-white text-2xl">✝︎</div>
+                <div>
+                    <span class="text-2xl font-bold tracking-tight">First Presbyterian Church</span>
+                    <span class="text-sm block -mt-1 text-[#8b5a2b]">Palisades Park</span>
+                </div>
+            </div>
+            <div class="hidden md:flex items-center gap-9 text-sm font-medium">
+                <a href="#home" onclick="smoothScrollTo('home')" class="nav-link text-[#2c3e35]">Home</a>
+                <a href="#legacy" onclick="smoothScrollTo('legacy')" class="nav-link text-[#2c3e35]">Our Legacy</a>
+                <a href="#current" onclick="smoothScrollTo('current')" class="nav-link text-[#2c3e35]">Current Condition</a>
+                <a href="#vision" onclick="smoothScrollTo('vision')" class="nav-link text-[#2c3e35]">Vision 2026</a>
+            </div>
+            <a href="https://www.zeffy.com/en-US/donation-form/offering-to-first-presbyterian-church" 
+               target="_blank"
+               class="bg-[#d97706] hover:bg-[#b45309] text-white px-8 py-3.5 rounded-full font-semibold flex items-center gap-2 transition-all">
+                <i class="fa-solid fa-heart"></i>
+                DONATE NOW
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero-bg h-screen flex items-center text-white">
+        <div class="max-w-5xl mx-auto px-6 pt-24">
+            <div class="max-w-2xl">
+                <div class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md px-5 py-2 rounded-full text-sm mb-6">
+                    <span class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
+                    ESTABLISHED 1909 • PALISADES PARK, NJ
+                </div>
+                <h1 class="text-6xl md:text-7xl leading-none font-bold tracking-tighter mb-4">
+                    Renewing Our<br>Sacred Home
+                </h1>
+                <p class="text-xl md:text-2xl text-white/90 mb-10">
+                    117 years of worship, fellowship, and community service.<br>
+                    Help us rebuild for the next generation.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="https://www.zeffy.com/en-US/donation-form/offering-to-first-presbyterian-church" 
+                       target="_blank"
+                       class="inline-flex items-center gap-3 bg-white text-[#2c3e35] hover:bg-[#f8f5f0] px-10 py-5 rounded-2xl font-semibold text-lg transition-all">
+                        <i class="fa-solid fa-hand-holding-heart"></i>
+                        GIVE TODAY
+                    </a>
+                    <a href="#vision" onclick="smoothScrollTo('vision')" 
+                       class="inline-flex items-center gap-3 border-2 border-white hover:bg-white/10 px-10 py-5 rounded-2xl font-semibold text-lg transition-all">
+                        SEE THE VISION
+                    </a>
+                </div>
+                <div class="mt-12 text-sm flex items-center gap-8">
+                    <div>50 W Palisades Blvd, Palisades Park, NJ 07650 </div>|
+                    <div class="flex items-center gap-1">
+                        <i class="fa-solid fa-envelope"></i>
+                        fpcmaster1@gmail.com
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- floating verse -->
+        <div class="absolute bottom-12 right-12 hidden lg:block max-w-[260px] bg-white/90 backdrop-blur text-[#2c3e35] p-6 rounded-3xl text-sm italic leading-relaxed">
+            “I was glad when they said to me, ‘Let us go to the house of the Lord!’”<br>
+            <span class="text-xs not-italic mt-3 block text-[#8b5a2b]">Psalm 122:1</span>
+        </div>
+    </section>
+
+    <!-- LEGACY -->
+    <section id="legacy" class="section py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <div class="uppercase tracking-[3px] text-[#d97706] text-sm font-medium mb-3">SINCE 1909</div>
+                    <h2 class="text-5xl leading-none font-bold text-[#2c3e35] mb-8">A 117-Year Story of Faith &amp; Community</h2>
+                    <div class="prose text-lg text-[#475569] leading-relaxed">
+                        <p>Founded as the Union Chapel in 1897 and chartered as First Presbyterian Church in 1909, our congregation has been a beacon of hope in Palisades Park for generations.</p>
+                        <p>From the generous gifts of the Edsall family that built our sanctuary and bell tower, through the Great Depression, World War eras, and the beautiful multi-ethnic revival since the 1980s — we have worshiped in English, Mandarin, Korean, and Spanish, serving over 200 families through our 12 co-host4ed programs, and short-term missions.</p>
+                    </div>
+                    <div class="mt-10 flex items-center gap-6 text-sm">
+                        <div class="flex items-center gap-3">
+                            <div class="w-px h-12 bg-[#d97706]"></div>
+                            <div>
+                                <div class="font-semibold">282 members at peak (1930)</div>
+                                <div class="text-[#64748b]">Growing again today</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="img/legacy-old.jpg" alt="Historic First Presbyterian Church Palisades Park" 
+                         class="rounded-3xl shadow-2xl w-full object-cover aspect-video">
+                    <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-3xl shadow-xl max-w-[220px]">
+                        <div class="text-4xl font-bold text-[#d97706]">115+</div>
+                        <div class="text-sm uppercase tracking-widest">Years of faithful witness</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CURRENT CONDITION -->
+    <section id="current" class="section py-24 bg-[#f8f5f0]">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <div class="inline-flex items-center gap-2 bg-rose-100 text-rose-700 px-6 py-2 rounded-full text-sm font-medium">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    URGENT NEED
+                </div>
+                <h2 class="text-5xl font-bold mt-6 mb-4">Our Historic Home Needs Your Help</h2>
+                <p class="max-w-xl mx-auto text-xl text-[#475569]">The sanctuary, parsonage, grounds, and outbuildings are in critical condition after decades of use and weather.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Photo cards from current condition documents -->
+                <div class="card-hover bg-white rounded-3xl overflow-hidden shadow">
+                    <img src="img/current-yard1.jpg" alt="Overgrown and debris-filled yard" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h4 class="font-semibold text-lg mb-2">Neglected Grounds</h4>
+                        <p class="text-[#64748b]">Tree stumps, debris, unsafe parking, and unusable outdoor space.</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-white rounded-3xl overflow-hidden shadow">
+                    <img src="img/current-debris.jpg" alt="Construction debris pile" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h4 class="font-semibold text-lg mb-2">Structural Damage</h4>
+                        <p class="text-[#64748b]">Cracked foundations, collapsed sheds, and unsafe parking areas.</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-white rounded-3xl overflow-hidden shadow">
+                    <img src="img/current-interior.jpg" alt="Outdated mechanical systems" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h4 class="font-semibold text-lg mb-2">Aging Systems</h4>
+                        <p class="text-[#64748b]">Failing HVAC, water damage, outdated wiring, and accessibility barriers.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-16 text-center text-sm text-[#64748b] max-w-md mx-auto">
+                Without immediate restoration, our ability to serve the community through worship and service programs is at risk.
+            </div>
+        </div>
+    </section>
+
+    <!-- VISION 2026 -->
+    <section id="vision" class="section py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-12 gap-16">
+                <div class="md:col-span-5">
+                    <div class="sticky top-28">
+                        <div class="uppercase text-emerald-600 text-sm tracking-[2px]">THE FUTURE WE ARE BUILDING</div>
+                        <h2 class="text-5xl leading-none font-bold mt-4 mb-8">A Welcoming, Sustainable Campus for All</h2>
+                        <div class="space-y-8 text-lg">
+                            <div class="flex gap-5">
+                                <div class="w-8 h-8 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center flex-shrink-0">☀️</div>
+                                <div>
+                                    <div class="font-semibold">Natural Light &amp; Modern Sanctuary</div>
+                                    <div class="text-[#64748b]">Flexible worship space with skylights, warm wood, and large glass doors opening to gardens.</div>
+                                </div>
+                            </div>
+                            <div class="flex gap-5">
+                                <div class="w-8 h-8 bg-amber-100 text-amber-600 rounded-2xl flex items-center justify-center flex-shrink-0">🌳</div>
+                                <div>
+                                    <div class="font-semibold">Outdoor Fellowship Hub</div>
+                                    <div class="text-[#64748b]">Covered patios, solar panels, ADA paths, and gathering spaces for all ages.</div>
+                                </div>
+                            </div>
+                            <div class="flex gap-5">
+                                <div class="w-8 h-8 bg-sky-100 text-sky-600 rounded-2xl flex items-center justify-center flex-shrink-0">🏠</div>
+                                <div>
+                                    <div class="font-semibold">Renewed Parsonage &amp; Ministry Rooms</div>
+                                    <div class="text-[#64748b]">Bright, inviting spaces for staff, youth, and community programs.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://www.zeffy.com/en-US/donation-form/offering-to-first-presbyterian-church" target="_blank"
+                           class="mt-12 inline-flex items-center gap-3 bg-gradient-to-r from-[#d97706] to-[#b45309] text-white px-10 py-6 rounded-3xl font-semibold text-lg">
+                            PARTNER IN THIS RENEWAL
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="md:col-span-7 grid grid-cols-2 gap-6">
+                    <img src="img/8.jpg" alt="Modern sanctuary with solar panels" 
+                         class="rounded-3xl shadow-xl col-span-2">
+                    <img src="img/5.jpg" alt="Bright narthex and fellowship hall" 
+                         class="rounded-3xl shadow-xl">
+                    <img src="img/12.jpg" alt="Renewed parsonage interior and exterior" 
+                         class="rounded-3xl shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IMPACT -->
+    <section class="section py-24 bg-[#2c3e35] text-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-bold">Your Gift Multiplies Kingdom Impact</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white/10 backdrop-blur rounded-3xl p-10 text-center">
+                    <div class="text-6xl mb-6">🙏</div>
+                    <div class="text-2xl font-semibold mb-3">Weekly Worship</div>
+                    <div class="text-white/70">Four languages • All are welcome</div>
+                </div>
+                <div class="bg-white/10 backdrop-blur rounded-3xl p-10 text-center">
+                    <div class="text-6xl mb-6">🙌</div>
+                    <div class="text-2xl font-semibold mb-3">12 Programs</div>
+                    <div class="text-white/70">Co-hosting various community service programs for the community</div>
+                </div>
+                <div class="bg-white/10 backdrop-blur rounded-3xl p-10 text-center">
+                    <div class="text-6xl mb-6">🌍</div>
+                    <div class="text-2xl font-semibold mb-3">Missions &amp; Outreach</div>
+                    <div class="text-white/70">VBS, short-term missions to Taiwan, charity concerts</div>
+                </div>
+            </div>
+            <div class="text-center mt-20 text-white/60 text-sm">
+                10% of every gift goes directly to outside missions and community care
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL DONATE CTA -->
+    <section class="py-28 bg-gradient-to-br from-[#f8f5f0] to-[#e5d9c8]">
+        <div class="max-w-3xl mx-auto text-center px-6">
+            <div class="text-6xl mb-8">❤️</div>
+            <h2 class="text-5xl font-bold leading-none mb-6">Together, we can restore this house of prayer</h2>
+            <p class="text-2xl text-[#475569] mb-12">Every gift — large or small — helps fund daily operations, community programs, and the full 2026 renovation.</p>
+            
+            <a href="https://www.zeffy.com/en-US/donation-form/offering-to-first-presbyterian-church" 
+               target="_blank"
+               class="inline-flex items-center justify-center gap-4 bg-[#2c3e35] hover:bg-[#1e2a24] text-white text-2xl px-16 py-8 rounded-3xl font-semibold transition-all shadow-2xl">
+                DONATE SECURELY NOW
+                <i class="fa-solid fa-arrow-up-right-from-square text-3xl"></i>
+            </a>
+            
+            <div class="mt-10 text-sm text-[#64748b]">Tax-deductible • 100% of your gift supports FPC ministries &amp; renovation</div>
+        </div>
+    </section>
+
+    <!-- CONTACT & FOOTER -->
+    <footer class="bg-[#2c3e35] text-white py-20">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-12 gap-y-16">
+            <div class="md:col-span-5">
+                <div class="flex items-center gap-3 text-white mb-8">
+                    <div class="w-11 h-11 bg-white rounded-full flex items-center justify-center text-[#2c3e35] text-3xl">✝︎</div>
+                    <div class="text-3xl font-bold">First Presbyterian Church</div>
+                </div>
+                <div class="text-lg">
+                    50 W Palisades Blvd<br>
+                    Palisades Park, NJ 07650
+                </div>
+                <div class="mt-8 flex items-center gap-8">
+                    <div>
+                        <div class="text-xs uppercase tracking-widest opacity-60">General Manager</div>
+                        <div >Rev. David Peng, Senior Pastor
+<br>
+                        Dr. Wallace Lynch, General Manager</div>
+                    <a href="tel:2019473970" class="flex items-center gap-2 hover:text-[#d97706]">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>fpcmaster1@gmail.com</span>
+                    </a>
+                    </div>
+                </div>
+                <div class="mt-12 text-xs opacity-60">
+                    © 2026 First Presbyterian Church of Palisades Park • NJ
+                </div>
+            </div>
+            
+            <div class="md:col-span-3">
+                <div class="font-medium mb-6">Quick Links</div>
+                <div class="space-y-4 text-sm">
+                    <a href="#legacy" onclick="smoothScrollTo('legacy')" class="block hover:text-[#d97706]">Our History</a>
+                    <a href="#current" onclick="smoothScrollTo('current')" class="block hover:text-[#d97706]">Current Needs</a>
+                    <a href="#vision" onclick="smoothScrollTo('vision')" class="block hover:text-[#d97706]">2026 Vision</a>
+                    <a href="https://www.zeffy.com/en-US/donation-form/offering-to-first-presbyterian-church" target="_blank" class="block hover:text-[#d97706]">Make a Gift</a>
+                </div>
+            </div>
+            
+            <div class="md:col-span-4">
+                <div class="bg-white/10 rounded-3xl p-8">
+                    <div class="text-sm opacity-75 mb-4">“We are called to be salt and light in this community.”</div>
+                    <div class="text-xs">— Rev. David Peng, Senior Pastor</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function smoothScrollTo(id) {
+            const element = document.getElementById(id);
+            if (element) {
+                element.scrollIntoView({ behavior: "smooth" });
+            }
+        }
+        
+        // Tailwind script already loaded via CDN
+        // Add mobile menu toggle if needed (future enhancement)
+        
+        // Keyboard accessibility for donate button
+        document.addEventListener('keydown', function(e) {
+            if (e.key === '/' && document.activeElement.tagName !== "INPUT" && document.activeElement.tagName !== "TEXTAREA") {
+                const donateBtn = document.querySelector('a[href*="zeffy"]');
+                if (donateBtn) donateBtn.focus();
+                e.preventDefault();
+            }
+        });
+        
+        console.log('%c❤️ Thank you for supporting First Presbyterian Church Palisades Park!', 'color:#d97706; font-family:Playfair Display; font-size:18px');
+    </script>
+</body>
+</html>
+   <!-- floating verse
+How to use this file:
+
+Save the code above as index.html
+Create a folder named img in the same directory
+Place the following images (extracted/screenshot from the provided PDFs) inside the img folder:
+hero.jpg → Pitch PDF page 1 (split old/new church)
+legacy-old.jpg → Historic church photo (pitch page 2 or history doc)
+current-yard1.jpg, current-debris.jpg, current-interior.jpg → Any of the current condition photos from FPC现状.pdf or pitch pages 2–3
+vision-sanctuary-exterior.jpg → Pitch page 5 (solar modern church)
+vision-fellowship.jpg → Pitch page 7 (narthex/fellowship render)
+vision-parsonage.jpg → Pitch page 9 (parsonage renders)
+
+
+The page is fully responsive, SEO-optimized for fpcpp.org, uses warm peaceful colors (cream, soft gold, sage), Christian elegance, endless-scroll design, and direct links to the Zeffy donation form. Open index.html in any browser — ready to deploy! -->
